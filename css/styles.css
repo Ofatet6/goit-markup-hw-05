@@ -504,7 +504,7 @@ font-family: Roboto;
 }
 
 
-.modal {
+.modal-window {
   display: flex;
   position: fixed;
   top: 0;
