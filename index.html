@@ -520,54 +520,58 @@
         <p class="modal-p">Leave your contacts and we will call you back</p>
         <form name="modal-f">
           <div class="group">
-          <label name="modal-label">Name
+          <label for="name">Name</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
                   href="./images/icons.svg#icon-person"
                 ></use>
-              </svg><input type="text" name="name" class="modal-inp">
+              </svg><input id="name" type="text" name="name" class="modal-inp">
               </div>
-          </label></div>
+          </div></form>
+          <form name="modal-f">
           <div class="group">
-          <label name="modal-label">Phone
+          <label for="modal-label">Phone</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
                   href="./images/icons.svg#icon-phone"
                 ></use>
               </svg>
-            <input type="text" name="name" class="modal-inp">
+            <input id="modal-label" type="text" name="name" class="modal-inp"/>
             
           </div>
-          </label>
-        </div>
+          
+        </div></form>
+        <form name="modal-f">
         <div class="group">
-          <label name="modal-label">Email
+          <label for="mail">Email</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
                   href="./images/icons.svg#icon-mail"
                 ></use>
               </svg>
-            <input type="text" name="name" class="modal-inp">
+            <input id="mail" type="text" name="name" class="modal-inp">
             </div>
-          </label>
-        </div>
+          
+        </div></form>
+        <form name="modal-f">
         <div class="group">
-        <label name="modal-label" class="modal-label">Comment
-        <textarea name="text" class="text-tarea" placeholder="Text input"></textarea></label>
-      </div>
-      <label name="modal-label" class="check-label">
-        <input type="checkbox" name="check" class="inpat-check">
+        <label for="modal-label" class="modal-label">Comment</label>
+        <textarea name="text" class="text-tarea" placeholder="Text input"></textarea>
+      </div></form>
+        
+      <label for="modal-label" class="check-label"></label>
+        <input type="checkbox" name="check" class="inpat-check"/>
         <p class="check-p">I accept the terms and conditions of the <span class="span-p">Privacy Policy</span></p>
-      </label>
+      
       <div class="button-div">
       <button type="submit" class="button-modal">Send</button></div>
         </div>
-        </form>
+  
       </div>
-    </div>
+    
   </body>
 </html>
 <!--footer bitiş-->
