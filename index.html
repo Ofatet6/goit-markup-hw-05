@@ -566,17 +566,24 @@
         </div>
         
         <div class="group">
-        <label for="user-comment" class="modal-label">Comment</label>
+        <label for="user-comment" class="label-grp">Comment</label>
         <textarea id="user-comment" name="user-comment" class="text-tarea" placeholder="Text input"></textarea>
       </div>
-    
-        
-      <label for="chec" class="check-label"></label>
-        <input type="checkbox" name="check" id="chec" class="inpat-check"/>
-        <p class="check-p">I accept the terms and conditions of the <span class="span-p">Privacy Policy</span></p>
+
+     
+        <div class="check-box">
+        <input type="checkbox" value="true" name="user-privacy" id="user-privacy" class="inpat-check"/>
+        <label for="user-privacy" class="check-label"> <span class="modal-checkbox-span">
+          <svg class="check-icon" width="10" height="8">
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+        </span>
+        I accept the terms and conditions of the
+        <a class="modal-checkbox-link" href="#">Privacy Policy</a>
+      </label>
       
-      <div class="button-div">
-      <button type="submit" class="button-modal">Send</button></div>
+      <button type="submit" class="button-modal">Send</button>
+    </div>
     </form> </div>
   
       </div>
