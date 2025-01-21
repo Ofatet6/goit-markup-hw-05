@@ -518,11 +518,15 @@
     <div class="modal-window is-open">
       
       <div class="modal-form">
-        <div class="close"><span>X</span></div>
+        <button class="close-button" type="button">
+					<svg class="close-icon" width="8" height="8">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
         <form name="modal-f">
           <div class="group">
-          <label for="name">Name</label>
+          <label class="label-grp" for="name">Name</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
@@ -533,7 +537,7 @@
           </div></form>
           <form name="modal-f">
           <div class="group">
-          <label for="modal-label">Phone</label>
+          <label class="label-grp" for="modal-label">Phone</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
@@ -547,7 +551,7 @@
         </div></form>
         <form name="modal-f">
         <div class="group">
-          <label for="mail">Email</label>
+          <label class="label-grp" for="mail">Email</label>
             <div class="input-grp">
               <svg class="mail-ok" width="24" height="24">
                 <use
