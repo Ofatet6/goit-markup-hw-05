@@ -667,7 +667,17 @@ body {
   margin-bottom: 24px;
 }
 
-.inpat-check {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .check-label {
@@ -692,6 +702,13 @@ body {
 }
 .link-a{
   color: #4D5AE5;
+}
+.inpat-check:checked  {
+
+  border: none;
+  fill: #f4f4fd;
+  background-color: #404bbf;
+
 }
 .modal-button {
   display: block;
