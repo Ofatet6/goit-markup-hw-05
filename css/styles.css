@@ -595,6 +595,7 @@ body {
   margin-top: 8px;
   margin-bottom: 8px;
   margin-top: 4px;
+  margin-bottom: 16px;
 }
 
 .label-grp {
@@ -664,7 +665,7 @@ body {
 }
 
 .check-box {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .visually-hidden {
@@ -703,7 +704,7 @@ body {
 .link-a{
   color: #4D5AE5;
 }
-.inpat-check:checked .check-label .span-p {
+.inpat-check:checked + .check-label .span-p {
 
   border: none;
   fill: #f4f4fd;
